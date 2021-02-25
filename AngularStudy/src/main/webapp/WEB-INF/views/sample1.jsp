@@ -14,5 +14,8 @@
 		<p>Name : <input type="text" ng-model="name"></p>
 		<p ng-bind="name"></p>
 	</div>
+	<div ng-app="" ng-init="firstName='KIM'">
+		<p>The name is <span ng-bind="firstName"></span></p>
+	</div>
 </body>
 </html>

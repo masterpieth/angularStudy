@@ -13,7 +13,7 @@ private static final Logger logger = LoggerFactory.getLogger(HomeController.clas
 	
 	@RequestMapping(value = "/sample1", method = RequestMethod.GET)
 	public String sample1() {
-		logger.info("sampl1 page");
+		logger.info("sample1 page");
 		return "sample1";
 	}
 }
