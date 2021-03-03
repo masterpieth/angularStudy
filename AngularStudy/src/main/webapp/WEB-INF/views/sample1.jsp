@@ -17,7 +17,7 @@
 </head>
 <body>
 
-
+<!-- 	AngularJS 튜토리얼 1 -->
 <!-- 	<div ng-app=""> -->
 <!-- 		<p>Name : <input type="text" ng-model="name"></p> -->
 <!-- 		<p ng-bind="name"></p> -->
