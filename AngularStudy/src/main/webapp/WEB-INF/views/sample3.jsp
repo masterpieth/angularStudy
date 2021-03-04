@@ -8,24 +8,26 @@
 <link rel="icon" href="data:;base64,=">
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script type="text/javascript">
-	var app = angular.module("myApp", []);
+// 	var app = angular.module("myApp", []);
 	
 // 	app.controller("myCtrl", function($scope) {
 // 		$scope.firstName = "NY";
 // 		$scope.lastName = "KIM";
 // 	});
-	app.directive("testDirective", function() {
-		return {
-			template : "custom directive"
-		};
-	});
+// 	app.directive("testDirective", function() {
+// 		return {
+// 			template : "custom directive"
+// 		};
+// 	});
 </script>
+<script src="/resources/js/myApp.js"></script>
+<script src="/resources/js/myCtrl.js"></script>
 </head>
 <body>
 <!-- 	AngularJS 튜토리얼 3 -->
-<!-- 	<div ng-app="myApp" ng-controller="myCtrl"> -->
-<!-- 		{{firstName + " " + lastName}} -->
-<!-- 	</div> -->
-	<div ng-app="myApp" test-directive></div>
+	<div ng-app="myApp" ng-controller="myCtrl">
+		{{firstName + " " + lastName}}
+	</div>
+<!-- 	<div ng-app="myApp" test-directive></div> -->
 </body>
 </html>
