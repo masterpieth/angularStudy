@@ -27,4 +27,14 @@ private static final Logger logger = LoggerFactory.getLogger(HomeController.clas
 		logger.info("sample3 page");
 		return "sample3";
 	}
+	@RequestMapping(value = "/sample4", method = RequestMethod.GET)
+	public String sample4() {
+		logger.info("sample4 page");
+		return "sample4";
+	}
+	@RequestMapping(value = "/sample5", method = RequestMethod.GET)
+	public String sample5() {
+		logger.info("sample5 page");
+		return "sample5";
+	}
 }
