@@ -9,7 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
 <body>
-
+<!-- angular 튜토리얼7 -->
 <!-- 	<div ng-app="myApp" ng-controller="myCtrl"> -->
 <!-- 		First Name : <input type="text" ng-model="firstName"><br> -->
 <!-- 		Last Name : <input type="text" ng-model="lastName"> -->
